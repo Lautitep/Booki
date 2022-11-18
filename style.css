@@ -1,0 +1,81 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  max-width: 1400px; /* 20px smaller, to fit the paddings on the sides */
+  margin-left: 50px;
+  margin-right: 50px;
+
+  /* ...  */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  padding-top: 30px;
+  height: 20px;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.onglets {
+  display: flex;
+}
+
+.hebergements {
+  padding-top: 30px;
+  margin-right: 20px;
+  color: #0065FC;
+  border-top: #0065FC solid 1px;
+}
+
+.activites {
+  padding-top: 30px;
+}
+
+form {
+  display: flex;
+  border: #d5d5d5 solid 1px;
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+input {
+  border: none
+}
+
+label {
+  padding: 8px 16px;
+  background-color: #d5d5d5;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+form button {
+  background-color: #0065FC;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding: 8px 16px;
+}
+
+::placeholder {
+  color: black;
+  font-weight: 700;
+  padding: 8px 10px;
+}
