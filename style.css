@@ -447,6 +447,10 @@ footer .assistance {
     font-size: 11px;
     line-height: 13px;
     border-radius: 25px;
+    padding: 16px 13px;
+  }
+  .filter-nav .category i {
+    font-size: 16px;
   }
   .home {
     order:2;
@@ -476,7 +480,7 @@ footer .assistance {
     width: 137px;
   }
   .popular h2 {
-    padding: 20px;
+    padding : 28px 0 14px 0;
     margin: 0;
   }
   .home-cards {
